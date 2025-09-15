@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Session_4(failed)">
+    <classes>
+      <class name="org.example.AppTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="CheckCalculateProcessForDays"/>
+          <include name="CheckExitdatebeforeEntryDate"/>
+        </methods>
+      </class> <!-- org.example.AppTest -->
+    </classes>
+  </test> <!-- Session_4(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
